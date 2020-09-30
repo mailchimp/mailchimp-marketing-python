@@ -12,15 +12,12 @@ from mailchimp_marketing.api.campaign_folders_api import CampaignFoldersApi
 from mailchimp_marketing.api.campaigns_api import CampaignsApi
 from mailchimp_marketing.api.connected_sites_api import ConnectedSitesApi
 from mailchimp_marketing.api.conversations_api import ConversationsApi
-from mailchimp_marketing.api.dashboard_api import DashboardApi
 from mailchimp_marketing.api.ecommerce_api import EcommerceApi
-from mailchimp_marketing.api.external_auths_api import ExternalAuthsApi
 from mailchimp_marketing.api.facebook_ads_api import FacebookAdsApi
 from mailchimp_marketing.api.file_manager_api import FileManagerApi
 from mailchimp_marketing.api.landing_pages_api import LandingPagesApi
 from mailchimp_marketing.api.lists_api import ListsApi
 from mailchimp_marketing.api.ping_api import PingApi
-from mailchimp_marketing.api.postcards_api import PostcardsApi
 from mailchimp_marketing.api.reporting_api import ReportingApi
 from mailchimp_marketing.api.reports_api import ReportsApi
 from mailchimp_marketing.api.root_api import RootApi

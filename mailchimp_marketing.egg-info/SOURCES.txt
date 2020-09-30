@@ -19,15 +19,12 @@ mailchimp_marketing/api/campaign_folders_api.py
 mailchimp_marketing/api/campaigns_api.py
 mailchimp_marketing/api/connected_sites_api.py
 mailchimp_marketing/api/conversations_api.py
-mailchimp_marketing/api/dashboard_api.py
 mailchimp_marketing/api/ecommerce_api.py
-mailchimp_marketing/api/external_auths_api.py
 mailchimp_marketing/api/facebook_ads_api.py
 mailchimp_marketing/api/file_manager_api.py
 mailchimp_marketing/api/landing_pages_api.py
 mailchimp_marketing/api/lists_api.py
 mailchimp_marketing/api/ping_api.py
-mailchimp_marketing/api/postcards_api.py
 mailchimp_marketing/api/reporting_api.py
 mailchimp_marketing/api/reports_api.py
 mailchimp_marketing/api/root_api.py
