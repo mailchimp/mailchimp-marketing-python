@@ -83,7 +83,6 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 
 | Method | Endpoint |
 | ---------- | -------- |
-| **activityFeed.get** | /activity-feed |
 | **activityFeed.get_chimp_chatter** | /activity-feed/chimp-chatter |
 | **authorizedApps.list** | /authorized-apps |
 | **authorizedApps.get** | /authorized-apps/{app_id} |
@@ -164,7 +163,6 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 | **ecommerce.delete_product_variant** | /ecommerce/stores/{store_id}/products/{product_id}/variants/{variant_id} |
 | **ecommerce.delete_promo_code** | /ecommerce/stores/{store_id}/promo-rules/{promo_rule_id}/promo-codes/{promo_code_id} |
 | **ecommerce.delete_promo_rule** | /ecommerce/stores/{store_id}/promo-rules/{promo_rule_id} |
-| **ecommerce.info** | /ecommerce |
 | **ecommerce.orders** | /ecommerce/orders |
 | **ecommerce.stores** | /ecommerce/stores |
 | **ecommerce.get_store** | /ecommerce/stores/{store_id} |
@@ -216,7 +214,6 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 | **facebookAds.get_ad** | /facebook-ads/{outreach_id} |
 | **fileManager.delete_file** | /file-manager/files/{file_id} |
 | **fileManager.delete_folder** | /file-manager/folders/{folder_id} |
-| **fileManager.get** | /file-manager |
 | **fileManager.files** | /file-manager/files |
 | **fileManager.get_file** | /file-manager/files/{file_id} |
 | **fileManager.list_folders** | /file-manager/folders |
@@ -298,7 +295,6 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 | **lists.preview_segment** | /lists/{list_id}/preview-segment |
 | **lists.set_list_member** | /lists/{list_id}/members/{subscriber_hash} |
 | **ping.get** | /ping |
-| **reporting.info** | /reporting |
 | **reporting.get_facebook_ads_report_all** | /reporting/facebook-ads |
 | **reporting.get_facebook_ad_report** | /reporting/facebook-ads/{outreach_id} |
 | **reporting.get_facebook_ad_product_activity_report** | /reporting/facebook-ads/{outreach_id}/ecommerce-product-activity |
