@@ -92,7 +92,6 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 | **activityFeed.get_chimp_chatter** | /activity-feed/chimp-chatter |
 | **authorizedApps.list** | /authorized-apps |
 | **authorizedApps.get** | /authorized-apps/{app_id} |
-| **authorizedApps.link** | /authorized-apps |
 | **automations.archive** | /automations/{workflow_id}/actions/archive |
 | **automations.delete_workflow_email** | /automations/{workflow_id}/emails/{workflow_email_id} |
 | **automations.list** | /automations |
