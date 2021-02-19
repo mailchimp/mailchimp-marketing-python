@@ -132,7 +132,7 @@ class ApiClient(object):
         elif method == "OPTIONS":
             return requests.options(url, params=query_params, headers=headers, auth=auth)
         elif method == "POST":
-            return requests.post(url, data=json.dumps(body), headers=headers, auth=auth)
+            return requests.post(url, data=json.dumps(body), params=query_params, headers=headers, auth=auth)
         elif method == "PUT":
             return requests.put(url, data=json.dumps(body), headers=headers, auth=auth)
         elif method == "PATCH":
