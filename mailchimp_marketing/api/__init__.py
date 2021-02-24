@@ -12,6 +12,7 @@ from mailchimp_marketing.api.campaign_folders_api import CampaignFoldersApi
 from mailchimp_marketing.api.campaigns_api import CampaignsApi
 from mailchimp_marketing.api.connected_sites_api import ConnectedSitesApi
 from mailchimp_marketing.api.conversations_api import ConversationsApi
+from mailchimp_marketing.api.customer_journeys_api import CustomerJourneysApi
 from mailchimp_marketing.api.ecommerce_api import EcommerceApi
 from mailchimp_marketing.api.facebook_ads_api import FacebookAdsApi
 from mailchimp_marketing.api.file_manager_api import FileManagerApi
