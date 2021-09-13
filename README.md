@@ -92,6 +92,9 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 
 | Method | Endpoint |
 | ---------- | -------- |
+| **accountExport.get_account_exports** | /account-exports/{export_id} |
+| **accountExports.list_account_exports** | /account-exports |
+| **accountExports.create_account_export** | /account-exports |
 | **activityFeed.get_chimp_chatter** | /activity-feed/chimp-chatter |
 | **authorizedApps.list** | /authorized-apps |
 | **authorizedApps.get** | /authorized-apps/{app_id} |

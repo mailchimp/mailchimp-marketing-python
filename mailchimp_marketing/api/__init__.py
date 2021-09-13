@@ -3,6 +3,8 @@ from __future__ import absolute_import
 # flake8: noqa
 
 # import apis into api package
+from mailchimp_marketing.api.account_export_api import AccountExportApi
+from mailchimp_marketing.api.account_exports_api import AccountExportsApi
 from mailchimp_marketing.api.activity_feed_api import ActivityFeedApi
 from mailchimp_marketing.api.authorized_apps_api import AuthorizedAppsApi
 from mailchimp_marketing.api.automations_api import AutomationsApi
