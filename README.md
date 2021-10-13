@@ -1,4 +1,4 @@
-![PyPi](https://img.shields.io/pypi/v/mailchimp.svg)
+<a href='https://pypi.org/project/mailchimp/'><img src='https://img.shields.io/pypi/v/mailchimp.svg' target="_blank"></a>
 
 <p align="center">
   <a href="https://mailchimp.com/developer/">
