@@ -1,3 +1,5 @@
+![PyPi](https://img.shields.io/pypi/v/mailchimp.svg)
+
 <p align="center">
   <a href="https://mailchimp.com/developer/">
     <img src="https://raw.githubusercontent.com/mailchimp/mailchimp-client-lib-codegen/main/resources/images/mcdev-banner.png" alt="Mailchimp Developer" width="100%" height="auto">
