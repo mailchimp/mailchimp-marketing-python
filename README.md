@@ -92,6 +92,8 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 
 | Method | Endpoint |
 | ---------- | -------- |
+| **Surveys.publish_survey** | /lists/{list_id}/surveys/{survey_id}/actions/publish |
+| **Surveys.unpublish_survey** | /lists/{list_id}/surveys/{survey_id}/actions/unpublish |
 | **accountExport.get_account_exports** | /account-exports/{export_id} |
 | **accountExports.list_account_exports** | /account-exports |
 | **accountExports.create_account_export** | /account-exports |
@@ -276,6 +278,8 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 | **lists.get_segment** | /lists/{list_id}/segments/{segment_id} |
 | **lists.get_segment_members_list** | /lists/{list_id}/segments/{segment_id}/members |
 | **lists.get_list_signup_forms** | /lists/{list_id}/signup-forms |
+| **lists.get_all_surveys_for_list** | /lists/{list_id}/surveys |
+| **lists.get_survey** | /lists/{list_id}/surveys/{survey_id} |
 | **lists.get_list_webhooks** | /lists/{list_id}/webhooks |
 | **lists.get_list_webhook** | /lists/{list_id}/webhooks/{webhook_id} |
 | **lists.update_list** | /lists/{list_id} |
@@ -310,6 +314,13 @@ All URIs are relative to *https://server.api.mailchimp.com/3.0*
 | **reporting.get_facebook_ad_product_activity_report** | /reporting/facebook-ads/{outreach_id}/ecommerce-product-activity |
 | **reporting.get_landing_page_reports_all** | /reporting/landing-pages |
 | **reporting.get_landing_page_report** | /reporting/landing-pages/{outreach_id} |
+| **reporting.get_survey_reports_all** | /reporting/surveys |
+| **reporting.get_survey_report** | /reporting/surveys/{outreach_id} |
+| **reporting.get_survey_question_reports_all** | /reporting/surveys/{outreach_id}/questions |
+| **reporting.get_survey_question_report** | /reporting/surveys/{outreach_id}/questions/{question_id} |
+| **reporting.get_survey_question_answers** | /reporting/surveys/{outreach_id}/questions/{question_id}/answers |
+| **reporting.get_survey_responses_all** | /reporting/surveys/{outreach_id}/responses |
+| **reporting.get_survey_response** | /reporting/surveys/{outreach_id}/responses/{response_id} |
 | **reports.get_all_campaign_reports** | /reports |
 | **reports.get_campaign_report** | /reports/{campaign_id} |
 | **reports.get_campaign_abuse_reports** | /reports/{campaign_id}/abuse-reports |

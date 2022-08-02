@@ -33,6 +33,7 @@ mailchimp_marketing/api/reports_api.py
 mailchimp_marketing/api/root_api.py
 mailchimp_marketing/api/search_campaigns_api.py
 mailchimp_marketing/api/search_members_api.py
+mailchimp_marketing/api/surveys_api.py
 mailchimp_marketing/api/template_folders_api.py
 mailchimp_marketing/api/templates_api.py
 mailchimp_marketing/api/verified_domains_api.py
